@@ -1,0 +1,106 @@
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Page Title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Container Styles */
+.App {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add Product Section */
+.add-product {
+  margin-bottom: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.add-product h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+
+.add-product input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.add-product button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Generated QR Code Section */
+.generated-qrcode {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.generated-qrcode h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #28a745;
+}
+
+/* Verify Product Section */
+.verify-product {
+  width: 100%;
+  text-align: center;
+}
+
+.verify-product h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #dc3545;
+}
+
+.verify-product button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.verify-product p {
+  font-size: 1rem;
+  margin-top: 1rem;
+  color: #333;
+}
